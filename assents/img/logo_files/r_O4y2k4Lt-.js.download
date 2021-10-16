@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["JmugaGS"]); }
+
+__d("CometSinglePostContentQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="4282209581860290"}),null);

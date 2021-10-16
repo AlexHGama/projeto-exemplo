@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["05pjJBh"]); }
+
+__d("CometPostsLoggedOutCTAWrapperFooterDataQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="4136983986396077"}),null);

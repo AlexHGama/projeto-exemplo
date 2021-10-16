@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["ZeiMNSG"]); }
-
-__d("CometProfileLoggedOutCTAWrapperFooterDataQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="5341536295888250"}),null);

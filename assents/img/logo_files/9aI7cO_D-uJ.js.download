@@ -1,4 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["sPGSu7W"]); }
-
-__d("CometGroupRootQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="4397806076981607"}),null);
-__d("CometGroupRootQuery$Parameters",["CometGroupRootQuery_facebookRelayOperation"],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:b("CometGroupRootQuery_facebookRelayOperation"),metadata:{},name:"CometGroupRootQuery",operationKind:"query",text:null}};e.exports=a}),null);

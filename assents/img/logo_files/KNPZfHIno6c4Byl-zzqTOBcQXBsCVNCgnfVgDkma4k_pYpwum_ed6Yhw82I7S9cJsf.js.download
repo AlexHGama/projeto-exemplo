@@ -1,9 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["tDgIEW8"]); }
-
-__d("MAWMaybeWithTimeout",["MAWGating.re","WAPromiseDelays"],(function(a,b,c,d,e,f,g){"use strict";function a(a,b,c){return d("MAWGating.re").isClientTimeoutsEnabled()?d("WAPromiseDelays").withTimeout(a,b,c):a}g.maybeWithTimeout=a}),98);
-__d("MAWWaitForBackendSetup",["Promise"],(function(a,b,c,d,e,f){"use strict";var g,h,i=new(b("Promise"))(function(a,b){g=a,h=b});function a(){return i}c=g;d=h;f.waitForBackendSetup=a;f.backendSetupCompleteResolve=c;f.backendSetupCompleteReject=d}),66);
-__d("CometMarketplaceSellerListingTransactionReportingFromThreadViewDialogQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="3780157165378049"}),null);
-__d("FBPayHubTransactionDetailDialogQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="2677749829015459"}),null);
-__d("MWChatForwardDialogQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="4270976026326369"}),null);
-__d("useMWFilePDFDataQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="4380270338721742"}),null);
-__d("MWRadio.react",["cr:655"],(function(a,b,c,d,e,f,g){"use strict";g["default"]=b("cr:655")}),98);

@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["ZSky8KK"]); }
-
-__d("CometSinglePageReviewsRootQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="5786028241468413"}),null);

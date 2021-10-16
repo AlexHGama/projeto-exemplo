@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["18lrln1"]); }
-
-__d("CometVideoHomeRootProviderQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="2939812456104778"}),null);

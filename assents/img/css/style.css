@@ -5,6 +5,7 @@ body {
 .cabecalho {
     background: linear-gradient( 50deg, #fff, hsl(238deg 66% 56% / 59%));
 }
+
 .menu {
     display: flex;
     justify-content: center;
@@ -22,4 +23,3 @@ body {
 }
 
    
-;

@@ -8,7 +8,7 @@ body {
 .menu {
     display: flex;
     justify-content: center;
-    margin-top: 300px;
+    
 }
 
 .menu a {

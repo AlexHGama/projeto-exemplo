@@ -14,7 +14,7 @@ div.menu  {
 }
 
 .menu a {
-    texte-decoration: nome;
+    text-decoration: nome;
     font-weight: bod;
     color: blue;
     margin-right: 15px;

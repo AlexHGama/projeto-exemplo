@@ -21,29 +21,30 @@
         </div>
             <section>
                <form>
-                   <input type="text" placeholder="Exemplo"/>
-                   <input type="submit" value="salvar"/>
-               </form> 
-            </section>
-            <section>
+                    <div>
+                      <label for="name">Nome:</label>
+                      <input name="name" id="name" required type="text"/>
+                    </div>
+                    <div>
+                        <label for="phone">Telefone:</label>
+                        <input name="phone" id="phone" required type="text"/>
+                    </div>
+                    <div> 
+                        <label>Experiência prévia:</label>
+                        <input type="radio" name="xp" id="xp-yes" /> <label for="xp-yes"> 
+                             sim
+                        </label>
+                        <input type="radio" name="xp" id="xp-no" /> <label for="xp-no">
+                            não      
+                        </label>
+                    </div>     
 
-                <table class="lista">
-                    <tr>
-                        <td style="width: 20%">
-                         Nome
-                        </td>
-                        <td style="width: 14%">
-                         Telefone
-                        </td>
-                        <td style="width: 15%">
-                         Experiência Prévia
-                        </td>
-                        <td style="width: 5%">
-                            <button> Alterar </button>
-                        </td>
-                    </tr>
-                </table>
+                    </form>            </form> 
             </section>
+            
+
+               
+            
         </body>
     </head>
 </html>

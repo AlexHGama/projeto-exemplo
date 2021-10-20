@@ -2,6 +2,6 @@
     width: 100;
 }
 
-.lista td {
+.lista tr:nth-child(1) {
     vertical-align: top;
 }

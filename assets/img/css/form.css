@@ -1,6 +1,6 @@
 .formulario {
     display:flex;
-    flex-directorion: colimn;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }

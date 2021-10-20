@@ -4,4 +4,12 @@
 
 .lista tr:nth-child(1) {
     vertical-align: top;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.lista tr td {
+    padding: 5px;
+
 }

@@ -1,5 +1,6 @@
 .lista {
     width: 100;
+    border:spacing 0;
 }
 
 .lista tr:nth-child(1) {

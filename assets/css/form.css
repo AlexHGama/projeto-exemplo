@@ -11,6 +11,6 @@
 
 .formulario .label-grande {
     width: 50%;
-    display: inline;
+    display: inline-block;
     text-align: right ;
 }

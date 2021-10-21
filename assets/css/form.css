@@ -14,3 +14,7 @@
     display: inline-block;
     text-align: right ;
 }
+
+.formulario .linha-formullario {
+    margin-bottom: 15px;
+}

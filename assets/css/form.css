@@ -19,8 +19,8 @@
     margin-bottom: 15px;
 }
 
-.xp-line div{
-    display: inline-block; width: 40%;
+.xp-line div {
+    display: inline-block; width: 100%;
 }
 
 @media screen and (max-width:419px ) {

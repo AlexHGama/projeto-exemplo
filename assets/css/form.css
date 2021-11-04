@@ -25,13 +25,13 @@
 
 @media screen and (max-width:419px ) {
 
-    .formulario input type="text"{
+    .formulario input [type="text"] {
         width: 100%;
     }
 
     .formulario .label-grande {
         width: 100%;
-        text-aling: center;
+        text-align: center;
     }
 
     .xp-line {

@@ -6,13 +6,13 @@
 }
 
 .formulario div {
-    width: 100%;
+    width: 53%;
 }
 
 .formulario .label-grande {
-    width: 50%;
+    width: 48%;
     display: inline-block;
-    text-align: center ;
+    text-align: right ;
 }
 
 .formulario .linha-formullario {

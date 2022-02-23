@@ -16,7 +16,7 @@ function testaFormulario(e) {
 
     
 
-    localStorage.getItem('people', JSON.stringify(people))
+    localStorage.setItem('people', JSON.stringify(people))
     
     document.getElementById('goHome').click()
 }

@@ -1,12 +1,13 @@
-var peopleRaw = localStorage.getItem('people , JSON.stringify')
+var peopleRaw = localStorage.getItem('people')
 if (peopleRaw != null) {
-    var people = JSON.parse(localStorage(people))
+    var people = JSON.parse(peopleRaw)
 } else {
     var people = [];
     
 }
   
 function desenhaTabela() { 
+
     currentLines = [...document.querySelectorAll('table.lista tbody .dinamic-content')];
     currentLines.forEach((element) => {
         element.remove()
@@ -37,7 +38,7 @@ function desenhaTabela() {
 function deleteUser(p) {
    people.splice(p, 1);
    desenhaTabela();
-   localStorage.setItem('people', JSON.stringify(people)) 
+   localStorage.setItem('people', JSON.stringify(people));
 }
-desenhaTabela()
+desenhaTabela();
 

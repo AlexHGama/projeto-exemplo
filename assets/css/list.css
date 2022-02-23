@@ -1,5 +1,5 @@
 .lista {
-    width: 100;
+    width: 100%;
     border:spacing 0;
 }
 
@@ -12,5 +12,10 @@
 
 .lista tr td {
     padding: 5px;
+
+}
+
+.lista {
+    width: 100%;
 
 }

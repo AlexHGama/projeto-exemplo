@@ -28,6 +28,7 @@ function desenhaTabela() {
                 </td>
                 <td>
                    <button onclick="deleteUser(${person})"> Excluir </button>
+                   <a href="./form.html?person=${person}">Editar</a>
                 </td>      
             </tr>
         `

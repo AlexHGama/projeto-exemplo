@@ -31,7 +31,7 @@
                                     </div>
                                     <div class="linha-formulario" >
                                         <label class="label-grande" for="phone">Telefone:</label>
-                                        <input name="phone" id="phone" required type="text"/>
+                                        <input name="phone" id="phone" onkeypress="testaCampoTelefone(event)" onfocus="this.value = ''" required type="text"/>
                                     </div>
                                    
                                     <div class="linha-formulario xp-line" style="display: flex;">

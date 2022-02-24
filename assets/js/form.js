@@ -1,8 +1,21 @@
 function testaFormulario(e) {
     e.preventDefault();
 
+           // validar o campo Phone//
+    var phonePattern = /[^0-9-() ]+/g
+    if (phonePattern.test(e.target.elements['phone'].value)) {
+        alert('Apenas números são permitidos no campo telefone!')
+        return false
+        
+    }
     
-   
+
+    if (e.target.elements['phone'].value.replace(/[-() ]/g, '').length < 11) {
+        alert('Número inválido!')
+        return false
+    }
+        // Fim validar o campo Phone// 
+      
     var peopleRaw = localStorage.getItem('people')
     if (peopleRaw != null) {
         var people = JSON.parse(peopleRaw)
@@ -54,3 +67,29 @@ if (id !== null) {
         document.getElementById('xp-no').checked = true
     }
 }  
+
+function testaCampoTelefone(e) {
+    e.preventDefault()
+    console.log(e)
+      //Coloca (() e - e posiçoes de caracter)
+    if (e.target.value.length == 0) {
+        e.target.value += '('  
+    }
+
+    if (e.target.value.length == 3) {
+        e.target.value += ') '  
+    }
+
+    if (e.target.value.length == 10) {
+        e.target.value += '-'  
+    }
+
+       //Permiti até 15 caracter no Tel)
+    if ((/[0-9]/g).test(e.key) && e.target.value.length < 15) {
+        e.target.value += e.key 
+      
+    }
+
+}
+
+

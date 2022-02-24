@@ -1,9 +1,3 @@
-
-.lista {
-    width:100%;
-    
-}
-
 .lista tr:nth-child(1) {
     vertical-align: top;
     background-color: black;
@@ -16,5 +10,9 @@
 
 }
 
-
+.lista {
+    
+    width:100%;
+    
+}
 

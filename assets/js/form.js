@@ -71,7 +71,7 @@ if (id !== null) {
 function testaCampoTelefone(e) {
     e.preventDefault()
     console.log(e)
-      //Coloca (() e - e posiçoes de caracter)
+      //Coloca (() e - e posiçoes de caracter)//
     if (e.target.value.length == 0) {
         e.target.value += '('  
     }
@@ -84,7 +84,7 @@ function testaCampoTelefone(e) {
         e.target.value += '-'  
     }
 
-       //Permiti até 15 caracter no Tel)
+       //Permiti até 15 caracter no Tel)//
     if ((/[0-9]/g).test(e.key) && e.target.value.length < 15) {
         e.target.value += e.key 
       

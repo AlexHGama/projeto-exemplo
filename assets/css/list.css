@@ -1,11 +1,9 @@
-<<<<<<< HEAD
+
 .lista {
     width:100%;
     
 }
 
-=======
->>>>>>> b849a186a7c090f0d4857e6599dc14d3e289a5e1
 .lista tr:nth-child(1) {
     vertical-align: top;
     background-color: black;
@@ -17,11 +15,6 @@
     padding: 5px;
 
 }
-<<<<<<< HEAD
-=======
 
-.lista {
-    width: 100%;
 
-}
->>>>>>> b849a186a7c090f0d4857e6599dc14d3e289a5e1
+
